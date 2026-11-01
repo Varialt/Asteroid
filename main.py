@@ -10,7 +10,7 @@ def main():
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 return
-        screen.fill("red")
+        screen.fill("black")
         pygame.display.flip()
 
     print(f"Starting Asteroids with pygame version: {pygame.version.ver}")
